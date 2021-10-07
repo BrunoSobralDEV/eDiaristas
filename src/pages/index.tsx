@@ -6,7 +6,10 @@ const Home: NextPage = () => {
   return (
     <div>
       <SafeEnvironment />
-      <PageTitle />
+      <PageTitle 
+        title={'Conheça os profissionais'}
+        subtitle={'Preencha seu endereço e veja todos os profissionais da sua localidade'}
+      />
     </div>
   )
 }
