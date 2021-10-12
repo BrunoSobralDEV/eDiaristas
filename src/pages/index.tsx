@@ -14,7 +14,12 @@ const Home: NextPage = () => {
         }
       />
 
-      <UserInformation />
+      <UserInformation
+        name={'Bruno Sobral'}
+        picture={"https://github.com/brunosobraldev.png"}
+        rating={3}
+        description={"Sergipe"}
+      />
     </div>
   );
 };
